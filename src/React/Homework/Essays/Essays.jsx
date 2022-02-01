@@ -28,7 +28,18 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q='S5. What is the difference between Web Designer, Front End Developer and Back End Developer?'>
-                Write your answer here
+                <ul>
+                    <li>Web Designers/UX Designer: Focus on designing the look of the website, mock ups, feautures for the web developer to translate</li>
+                    <li>Front End Developer: Client or User side and user interaction. Front end developers dealt more with rolors, responsiveness and made sure the website or application could be optimally used in all devices.</li>
+                    <li>Back End Developer: Server side of the website that focuses more on data collection and server communication. </li>
+                </ul>
+            </Essay>
+            <Essay q='S6. Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
+                <ul>
+                    <li>Site Relative:</li>
+                    <li>Document Relative:</li>
+                    <li>Absolute Paths:</li>
+                </ul>
             </Essay>
         </EssaysStyled>
     )
