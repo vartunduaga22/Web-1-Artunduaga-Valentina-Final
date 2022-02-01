@@ -12,23 +12,25 @@ const Main = () => {
 
     return (
         <MainStyled className='Main'>
-            <Switch>
-            <Route path='/' exact>
-                    <Welcome />
-                </Route>
-            <Route path='/services'>
-                    <Services />
-                </Route>
-            <Route path='/contact'>
-                    <Contact />
-                </Route>
-            <Route path='/login'>
-                    <Login />
-                </Route>
-                <Route path='/homework'>
-                    <Homework />
-                </Route>
-            </Switch>
+            <div className='inset'>
+                <Switch>
+                    <Route path='/' exact>
+                        <Welcome />
+                    </Route>
+                    <Route path='/services'>
+                        <Services />
+                    </Route>
+                    <Route path='/contact'>
+                        <Contact />
+                    </Route>
+                    <Route path='/login'>
+                        <Login />
+                    </Route>
+                    <Route path='/homework'>
+                        <Homework />
+                    </Route>
+                </Switch>
+            </div>
         </MainStyled>
     );
 }
@@ -37,11 +39,17 @@ export default Main;
 
 const MainStyled = styled.main`
 
-    .insert {
-        border: solid 10px purple;
+    .inset {
         padding: 20px;
-        max-width: 800px;
+        width: 100%;
+        max-width: 1200px;
         margin: auto;
+        min-height: 600px;
     }
     
+    h1 {
+        margin: 0px 0px 20px;
+        font-size: 40px;
+    }
+
 `;
