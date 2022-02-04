@@ -34,11 +34,19 @@ const Essays = () => {
                     <li>Back End Developer: Server side of the website that focuses more on data collection and server communication. </li>
                 </ul>
             </Essay>
-            <Essay q='S6. Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
+            <Essay q='S6. Distinguish the difference between Site Relative, Document Relative, and Absolute Paths?'>
                 <ul>
-                    <li>Site Relative:</li>
-                    <li>Document Relative:</li>
-                    <li>Absolute Paths:</li>
+                    <li>Site Relative: URL relates from the root of the websites. Describes the path relative to the sites root folder that contains the home page and all the other pages, folders, and files that make up your site.</li>
+                    <li>Document Relative: Link that is relative to the documents </li>
+                    <li>Absolute Paths: Fully resolved URL to a resource (any resource) </li>
+                </ul>
+            </Essay>
+            <Essay q='S7. What is the difference between jpg, gif, png and SVG images?'>
+                <ul>
+                    <li>JPG:</li>
+                    <li>GIF:</li>
+                    <li>PNG:</li>
+                    <li>SVG Images:</li>
                 </ul>
             </Essay>
         </EssaysStyled>
