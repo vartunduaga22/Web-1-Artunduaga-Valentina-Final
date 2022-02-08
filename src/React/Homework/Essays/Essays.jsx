@@ -43,10 +43,10 @@ const Essays = () => {
             </Essay>
             <Essay q='S7. What is the difference between jpg, gif, png and SVG images?'>
                 <ul>
-                    <li>JPG:</li>
-                    <li>GIF:</li>
-                    <li>PNG:</li>
-                    <li>SVG Images:</li>
+                    <li>JPG: Joint Photographis Experts Group: Lossy compression, millions of colors, can make for small files at the expense for quality.</li>
+                    <li>GIF: Graphic Interface Format: 256 total colors, animation is supported, indexed colors is supported and supports transparency.</li>
+                    <li>PNG: Portable Network Graphics: Supports transparency, lossless compression, also has millions of colors and indexed colors.</li>
+                    <li>SVG Images: </li>
                 </ul>
             </Essay>
             <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.?'>
