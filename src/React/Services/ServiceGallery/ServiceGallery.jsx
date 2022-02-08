@@ -1,11 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import { servicesVersion } from 'typescript';
 
-const ServiceGallery = () => {
+import ServiceGalleryItem from './ServiceGalleryItem.jsx';
+
+const ServiceGallery = ({services}) => {
 
     return (
         <ServiceGalleryStyled className='ServiceGallery'>
-            ServiceGallery 
+            {
+                    services.map((service, idx) => {
+                        return <ServiceGalleryItem key={ idx } service={ service }/>
+                    })
+            }
         </ServiceGalleryStyled>
     );
 }
