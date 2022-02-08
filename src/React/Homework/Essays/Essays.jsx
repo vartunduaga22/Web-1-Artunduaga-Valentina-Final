@@ -49,6 +49,11 @@ const Essays = () => {
                     <li>SVG Images:</li>
                 </ul>
             </Essay>
+            <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.?'>
+                <ul>
+                    <li>Answer will go in Thursday</li>
+                </ul>
+            </Essay>
         </EssaysStyled>
     )
 }
