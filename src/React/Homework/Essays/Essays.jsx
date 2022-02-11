@@ -51,7 +51,18 @@ const Essays = () => {
             </Essay>
             <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.?'>
                 <ul>
-                    <li>Answer will go in Thursday</li>
+                    <li>Project Manager: </li>
+                    <li>Business Analyst: </li>
+                    <li>Scrum Master: </li>
+                    <li>UX designer: User Experience Designer: Design User Stories, Characters to visually implement the site.</li>
+                    <li>Web Developer/Engineer: </li>
+                    <li>Quality Assurance Tester: </li>
+                    <li>DevOps: </li>
+                </ul>
+            </Essay>
+            <Essay q='S9. What is considered the right size for an image or video asset?'>
+                <ul>
+                    <li>Answer will go in Monday</li>
                 </ul>
             </Essay>
         </EssaysStyled>
