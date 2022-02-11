@@ -20,7 +20,7 @@ const Nav = () => {
                 <Hamburger showMenu={ showMenu } showMenuUpdate={ showMenuUpdate } />
             }
             {
-                (media.mUp || showMenu) &&
+                (media.mdUp || showMenu) &&
                 <MainMenu showMenuUpdate={ showMenuUpdate }/>
             }
         </NavStyled>
