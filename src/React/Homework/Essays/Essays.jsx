@@ -62,7 +62,12 @@ const Essays = () => {
             </Essay>
             <Essay q='S9. What is considered the right size for an image or video asset?'>
                 <ul>
-                    <li>Answer will go in Monday</li>
+                    <li>Trick question, whatever site will give us the fastest download without compromising quality.</li>
+                </ul>
+            </Essay>
+            <Essay q='S9. What is considered the right size for an image or video asset?'>
+                <ul>
+                    <li>Trick question, whatever site will give us the fastest download without compromising quality.</li>
                 </ul>
             </Essay>
         </EssaysStyled>
