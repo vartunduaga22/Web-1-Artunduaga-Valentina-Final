@@ -4,12 +4,16 @@ import { servicesVersion } from 'typescript';
 
 import ServiceGalleryItem from './ServiceGalleryItem.jsx';
 
-const ServiceGallery = ({services}) => {
+const ServiceGallery = ({services, chosenCategory}) => {
 
     return (
         <ServiceGalleryStyled className='ServiceGallery'>
             {
-                    services.map((service, idx) => {
+                    services
+                    .filter((service) => {
+                        return (chosenCategory === 'All'  || service.category === chosenCategory);
+                    })
+                    .map((service, idx) => {
                         return <ServiceGalleryItem key={ idx } service={ service }/>
                     })
             }

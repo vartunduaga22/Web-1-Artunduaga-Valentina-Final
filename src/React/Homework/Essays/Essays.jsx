@@ -65,9 +65,9 @@ const Essays = () => {
                     <li>Trick question, whatever site will give us the fastest download without compromising quality.</li>
                 </ul>
             </Essay>
-            <Essay q='S9. What is considered the right size for an image or video asset?'>
+            <Essay q='S10. What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
                 <ul>
-                    <li>Trick question, whatever site will give us the fastest download without compromising quality.</li>
+                    <li>Answer will be here on Thursday.</li>
                 </ul>
             </Essay>
         </EssaysStyled>
