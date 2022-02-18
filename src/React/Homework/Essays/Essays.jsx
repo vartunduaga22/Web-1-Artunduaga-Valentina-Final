@@ -67,7 +67,17 @@ const Essays = () => {
             </Essay>
             <Essay q='S10. What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
                 <ul>
-                    <li>Answer will be here on Thursday.</li>
+                    <li>Agile Methodology: This methodology relies on iteration and flexible flexible rapid sprints. Adjust and change
+                        requirements as they shift in real time </li>
+                    <li>Pros: The product gets to market faster. Requires a consistent team. Adaptive – Priorities can be redefined.
+                        Collaborative. Quick problem detection.</li>
+                    <li>Cons: No definite deadline. Hard to know specifics or definite costs because things are ever-evolving. Proper planning gets left behind because this method is more reactive.
+                        You can’t plan ahead for an issue you don’t know if you might or might not have.</li>
+                </ul>
+            </Essay>
+            <Essay q='S11. What are testing environments? What is the difference between Local, Dev, QA and Production?'>
+                <ul>
+                    <li>Answer will be here on Monday.</li>
                 </ul>
             </Essay>
         </EssaysStyled>
