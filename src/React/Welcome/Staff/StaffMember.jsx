@@ -1,15 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
+import Lightbox from 'React/common/Lightbox/Lightbox.jsx';
 
 /* Scripts ---------------------------*/
 import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
 
 const StaffMember = ({member}) => {
 
+    const ActiveContent = () => {
+        return (
+            <>
+                <img src={ member.image } alt={ member.name } />
+                <h3>{member.name }</h3>
+            </>
+        )
+    }
+
+    const ModalContent = () => {
+        return <img src={ member.image } alt={ member.name } />;
+    }
+
     return (
         <StaffMemberStyled className='StaffMember'>
-            <img src={ member.image } alt={ member.name } />
-            <h3>{ member.name }</h3>
+            <Lightbox 
+                title={ member.name }
+                activeContent={ <ActiveContent /> }
+                modalContent={ <ModalContent /> }
+            />
         </StaffMemberStyled>
     );
 }
