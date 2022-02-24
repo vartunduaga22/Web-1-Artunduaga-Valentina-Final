@@ -76,8 +76,18 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q='S11. What are testing environments? What is the difference between Local, Dev, QA and Production?'>
+                <p>A testing environment is: Space developers deploy there work for testing their work.</p>
+                
                 <ul>
-                    <li>Answer will be here on Monday.</li>
+                    <li><b>Local:</b> Developer's Machine - to build and test your own code on your computer.</li>
+                    <li><b>Dev:</b> Dev Testing Server: Dev paired code reviews</li>
+                    <li><b>QA:</b> Quality Assurance Testing Server for QA team</li>
+                    <li><b>Production:</b> Live website for users to access - public domain</li>
+                </ul>
+            </Essay>
+            <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
+                <ul>
+                    <li>Answer will be here on Thursday.</li>
                 </ul>
             </Essay>
         </EssaysStyled>
