@@ -16,12 +16,20 @@ export { default as Textarea } from './Controls/Textarea.jsx'
 export { default as SubmitButton } from './Controls/SubmitButton.jsx'
 
 
-const UniversalForm = ({children}) => {
+const UniversalForm = ({children, apiUrl, onSubmit}) => {
 
     const defaultFormData = {
-        sample: 'My Sample Data',
+        apiUrl: apiUrl,
+        onSubmit: onSubmit,
+        payload: {},
+        feedback: {
+            show: false,
+            type: 'pending',
+            message: '',
+        },
+        fields: [],
     };
-    
+
     const [state, dispatch] = useReducer(reducer, defaultFormData);
 
     return (
