@@ -100,7 +100,21 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
+                <ul>
+                    <li><b>CSS Preprocessor:</b> Turns CSS into programming language to parsing variables and functions.</li>
+                    <li><b>What are some examples?:</b> Sass: Syntactically Awesome Style Sheet, LESS: Leaner Style Sheets, Stylus. </li>
+                    <li><b>What are styled components in React:</b> Styled components can add styles directly in compents.</li>
+                    <li><b>Specificity:</b> Determines which selector and rule applies to an element</li>
+                </ul>
+            </Essay>
+            <Essay q="S15. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
                 <p>Answer will go here for Thursday.</p>
+                <ul>
+                    <li><b>ID:</b> Label: We use pound sign (#) in CSS and JS. Singular - should only label one HTML element on a page. </li>
+                    <li><b>Class:</b> Label: We use the period (.) in CSS and JS. Defines a series, multiple HTML elelemts.</li>
+                    <li><b>Tag:</b> Any HTML tag in the HTML language.</li>
+                    <li><b>Specificity:</b> Determines which selector and rule applies to an element</li>
+                </ul>
             </Essay>
         </EssaysStyled>
     )
