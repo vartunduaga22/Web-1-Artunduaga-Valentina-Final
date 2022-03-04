@@ -107,14 +107,8 @@ const Essays = () => {
                     <li><b>Specificity:</b> Determines which selector and rule applies to an element</li>
                 </ul>
             </Essay>
-            <Essay q="S15. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
-                <p>Answer will go here for Thursday.</p>
-                <ul>
-                    <li><b>ID:</b> Label: We use pound sign (#) in CSS and JS. Singular - should only label one HTML element on a page. </li>
-                    <li><b>Class:</b> Label: We use the period (.) in CSS and JS. Defines a series, multiple HTML elelemts.</li>
-                    <li><b>Tag:</b> Any HTML tag in the HTML language.</li>
-                    <li><b>Specificity:</b> Determines which selector and rule applies to an element</li>
-                </ul>
+            <Essay q="S15. Final Project Essays goes here?">
+                <p>Answer will go here for Monday.</p>
             </Essay>
         </EssaysStyled>
     )
