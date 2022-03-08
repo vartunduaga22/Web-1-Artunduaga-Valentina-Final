@@ -108,7 +108,8 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q="S15. Final Project Essays goes here?">
-                <p>Answer will go here for Monday.</p>
+                <p>The client is myself and the purpose of the website will be to house my personal photography. I chose this subject because I want to build a space that uniquely defines me and my photographic style.
+                    Although I will meet the basic requirements of the project, I hope to be able to push this website into a space that further develops into my resume and portfolio. </p>
             </Essay>
         </EssaysStyled>
     )
