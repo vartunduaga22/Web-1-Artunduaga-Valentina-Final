@@ -27,9 +27,9 @@ export default MainMenu;
 const MainMenuStyled = styled.div`
     a {
         display: block;
-        color: white;
+        color: #f4f4f4;
         margin: 5px 0px;
-        background-color: #007373;
+        background-color: #212121;
         height: 50px;
         line-height: 55px;
         text-decoration: none;
@@ -41,11 +41,11 @@ const MainMenuStyled = styled.div`
         font-weight: bold;
 
         &:hover {
-            background-color: #038484;
+            background-color: black;
         }
         &.active {
-            color: #007373;
-            background-color: #AEE6E6;
+            color: #e1e1e1;
+            background-color: #6a6a6a;
         }
 
     }

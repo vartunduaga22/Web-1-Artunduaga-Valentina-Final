@@ -15,7 +15,7 @@ const Logo = () => {
 export default Logo;
 
 const LogoStyled = styled.div`
-    svg.hot-tub-icon {
+    svg.camera-retro-icon {
         width: 30px;
         height: auto;
     }
