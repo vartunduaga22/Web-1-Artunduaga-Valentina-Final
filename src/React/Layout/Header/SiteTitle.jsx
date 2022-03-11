@@ -5,8 +5,8 @@ const SiteTitle = () => {
 
     return (
         <SiteTitleStyled className='SiteTitle'>
-            <h2>Spa Sanctuary</h2>
-            <h3>A Spa For Every Occasion</h3> 
+            <h2>Valentina's Film Photography</h2>
+            <h3>A trip down memory lane</h3> 
         </SiteTitleStyled>
     );
 }
@@ -14,7 +14,7 @@ const SiteTitle = () => {
 export default SiteTitle;
 
 const SiteTitleStyled = styled.div`
-    color: #064c4c;
+    color: white;
     text-align: left;
 
     h2 {

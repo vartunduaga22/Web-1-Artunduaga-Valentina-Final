@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-    faHotTub,
+    faCameraRetro,
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -11,7 +11,7 @@ const SiteLogo = () => {
 
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <FontAwesomeIcon icon={ faHotTub } className='hot-tub-icon' />
+            <FontAwesomeIcon icon={ faCameraRetro } className='camera-retro-icon' />
         </SiteLogoStyled>
     );
 }
@@ -19,12 +19,12 @@ const SiteLogo = () => {
 export default SiteLogo;
 
 const SiteLogoStyled = styled.div`
-    color: #13bbbb;
+    color: white;
     width: 100%;
     height: 100%;
 
-    svg.hot-tub-icon {
-        width: 100px;
+    svg.camera-retro-icon {
+        width: 200px;
         height: auto;
     }
 `;
