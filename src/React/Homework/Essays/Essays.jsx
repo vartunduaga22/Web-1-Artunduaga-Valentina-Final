@@ -111,6 +111,18 @@ const Essays = () => {
                 <p>The client is myself and the purpose of the website will be to house my personal photography. I chose this subject because I want to build a space that uniquely defines me and my photographic style.
                     Although I will meet the basic requirements of the project, I hope to be able to push this website into a space that further develops into my resume and portfolio. </p>
             </Essay>
+            <Essay q="S16. What is the difference between Web Hosts, Domains, and FTP?">
+                <ul>
+                    <li><b>Web Hosts:</b> A typically paid service that gives a practice space to exist and become visible to users on the Internet.
+                    This space is on a server, and you’re able to store all your website files here.
+                    Without this space, no one can access your website. </li>
+                    <li><b>Domains:</b> Your domain name, also commonly known as your URL, is basically the unique address
+                    given to your website so it can be searched for and found on the Internet. </li>
+                    <li><b>FTP: Fire Transfer Protocol</b> Used to download or upload your website’s files to your web hosting account, thus allowing it to be visible on the Internet.
+                    You can move the files from one system to a remote system.
+                    FTP isn’t a service. FTP is a tool that’s used by web developers, and it’s accessed by using a username and password which are both created by your web hosting provider.</li>
+                </ul>
+            </Essay>
         </EssaysStyled>
     )
 }
