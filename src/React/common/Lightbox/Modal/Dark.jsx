@@ -4,8 +4,7 @@ import styled from 'styled-components';
 const Dark = ({closeModal}) => {
 
     return (
-        <DarkStyled className='Dark' onClick={ closeModal }>
-            Dark 
+        <DarkStyled className='Dark' onClick={ closeModal }> 
         </DarkStyled>
     );
 }

@@ -23,7 +23,6 @@ const ServiceGalleryItem = ({service}) => {
 
             <ul>
                 <li><b>Category:</b> { service.category }</li>
-                <li><b>Cost:</b> { service.cost }</li>
             </ul>
             <p>{ service.description }</p>
             </>
@@ -64,7 +63,7 @@ const ServiceGalleryItemStyled = styled.div`
         }
 
         h3 {
-            background-color: rgba(0, 128, 128, 0.715);
+            background-color: rgba(106, 106, 106, 0.715);
             margin: 0px;
             padding: 10px;
 

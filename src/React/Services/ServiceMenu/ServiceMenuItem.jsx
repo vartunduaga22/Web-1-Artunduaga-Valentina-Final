@@ -21,18 +21,18 @@ export default ServiceMenuItem;
 const ServiceMenuItemStyled = styled.div`
     width: 150px;
     font-size: 18px;
-    border-bottom: solid 5px teal;
+    border-bottom: solid 5px black;
     line-height: 40px;
     text-align: center;
     margin: 5px;
     cursor: pointer;
 
     &:hover {
-        background-color: #eeeeee;
+        background-color: #6a6a6a;
     }
 
     &.active {
-        background-color: teal;
-        color: white;
+        background-color: #6a6a6a;
+        color: #e1e1e1;
     }
 `;

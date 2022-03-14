@@ -43,6 +43,5 @@ const Modal = ({title, modalContent, showModalUpdate}) => {
 export default Modal;
 
 const ModalStyled = styled.div`
-    border: solid 5px red;
-    
+    border: solid 3px white;
 `;

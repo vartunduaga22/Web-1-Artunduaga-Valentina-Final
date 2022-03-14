@@ -11,7 +11,7 @@ const Staff = () => {
 
     return (
         <StaffStyled className='Staff'>
-            <h3>Staff</h3>
+            <h3>Favorite Pictures</h3>
             <div className="wrapper">
                 {
                     staffData.map((member, idx) => {
@@ -26,7 +26,8 @@ const Staff = () => {
 export default Staff;
 
 const StaffStyled = styled.div`
-    background-color: teal;
+    color: #e1e1e1;
+    background-color: black;
     padding: 20px;
     margin: 20px 0px;
 
