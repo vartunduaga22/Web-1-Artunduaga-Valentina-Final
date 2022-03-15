@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Blogs from './Blog/Blogs.jsx';
-import Youtube from './Youtube.jsx';
 
 const Contact = () => {
 
@@ -10,7 +9,6 @@ const Contact = () => {
         <ContactStyled className='Contact'>
             <h1>Blog</h1>
             <Blogs />
-            <Youtube />
         </ContactStyled>
     );
 }
