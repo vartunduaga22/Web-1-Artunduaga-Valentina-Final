@@ -123,6 +123,11 @@ const Essays = () => {
                     FTP isn’t a service. FTP is a tool that’s used by web developers, and it’s accessed by using a username and password which are both created by your web hosting provider.</li>
                 </ul>
             </Essay>
+            <Essay q="S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?">
+            <li><b>Package Manager:</b> A package manager is a system that will manage your project dependencies.
+            This manager will provide a method to install new dependencies (also referred to as "packages"), manage where packages are stored on your file system, and offer capabilities for you to publish your own packages.</li>
+            <li><b>Role in software development:</b> Ensures team members are all using the same package and dependencies. And control over versioning – less likely to break apps.</li>
+            </Essay>
         </EssaysStyled>
     )
 }
